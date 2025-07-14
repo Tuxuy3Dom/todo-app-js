@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-left: 25px;
+    background: linear-gradient(to bottom, #1b2735);
+    font-family: 'Poppins, sans-serif';
+}
+
+.app h1{
+    color: #fff;
+    text-align: center;
+}
+
+#task-input {
+    width: 200px;
+    text-align: center;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+#btn-add {
+    border:none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
